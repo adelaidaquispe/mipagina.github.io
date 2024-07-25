@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header, .content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.header .info {
+    max-width: 70%;
+}
+.header .info h1 {
+    margin: 0;
+    font-size: 2em
+    color: #333;
+}
+.header .info p {
+    margin: 5px 0;
+    color: #666;
+}
+.skills, .education, .experience {
+    margin-bottom: 20px;
+}
+.skills div, .education div, .experience div {
+    margin-bottom: 10px;
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 5px;
+}
+.icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact div {
+    display: flex;
+    align-items: center;
+}
+.contact img {
+    width: 20px;
+    margin-right: 10px;
+}
+<body>
+</style>
+</head>
+
